@@ -2,7 +2,7 @@
     "listFile": {
         "stopRunning": 3,
         "pythonCommand": [
-            "import os; os.listdir()"
+            "import os; os.listdir()\r"
         ],
         "comment": "获取脚本文件列表，返回 字符串数组"
     },
@@ -10,19 +10,19 @@
         "stopRunning": 3,
         "startPaste": 5,
         "pythonCommand": [
-            "with open(\"{arg}\") as f:",
-            "    exec(f.read(), globals())"
+            "with open(\"{arg}\") as f:\r",
+            "    exec(f.read(), globals())\r"
         ],
         "endPaste": 4,
         "comment": "执行系统里面的脚本文件，{arg}为脚本文件名"
     },
-    "uploadFile" :{
+    "uploadFile_" :{
         "stopRunning": 3,
         "startPaste": 5,
         "pythonCommand": [
-            "file_name=\"{arg}\"",
-            "with open(\"__upload.py\") as f:",
-            "    exec(f.read(), globals())"
+            "file_name=\"{arg}\"\r",
+            "with open(\"__upload.py\") as f:\r",
+            "    exec(f.read(), globals())\r"
         ],
         "endPaste": 4,
         "comment": "上传脚本文件到设备，{arg}为脚本文件名"
