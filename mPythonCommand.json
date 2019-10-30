@@ -1,4 +1,15 @@
 {
+    "example": {
+        "stopRunning": 3,
+        "startPaste": 5,
+        "startRawMode": 1,
+        "pythonCommand": [
+            "print(\"hello world\")\r"
+        ],
+        "endRawMode": 2,
+        "endPaste": 4,
+        "comment": "示例全部字段"
+    },
     "listFile": {
         "stopRunning": 3,
         "pythonCommand": [
