@@ -17,6 +17,16 @@
         ],
         "comment": "获取脚本文件列表，返回 字符串数组"
     },
+    "readFile_": {
+        "stopRunning": 3,
+        "startPaste": 5,
+        "pythonCommand": [
+            "with open(\"{arg}\") as f:\r",
+            "    print(f.read())\r"
+        ],
+        "endPaste": 4,
+        "comment": "在系统终端显示脚本文件内容，{arg}为脚本文件名"
+    },
     "execFile_": {
         "stopRunning": 3,
         "startPaste": 5,
