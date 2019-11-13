@@ -1,0 +1,4 @@
+需要安装python运行环境：
+
+firmware.bin 是需要烧录的micropython 固件
+在download.bat 里面修改COM口

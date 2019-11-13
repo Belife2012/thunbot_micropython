@@ -48,6 +48,17 @@
         "endPaste": 4,
         "comment": "上传脚本文件到设备，{arg}为脚本文件名"
     },
+    "downloadFile_" :{
+        "stopRunning": 3,
+        "startPaste": 5,
+        "pythonCommand": [
+            "file_name=\"{arg}\"\r",
+            "with open(\"__download.py\") as f:\r",
+            "    exec(f.read(), globals())\r"
+        ],
+        "endPaste": 4,
+        "comment": "下载设备里面的文件，{arg}为脚本文件名"
+    },
     "cmdStopRunning": {
         "stopRunning": 3,
         "comment": "停止当前运行的脚本"
